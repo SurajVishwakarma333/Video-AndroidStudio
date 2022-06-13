@@ -65,7 +65,7 @@ simpleVideoView.pause(); // pause a video
 
 
 
-
+# Project Ouput
 
 
 https://user-images.githubusercontent.com/101108540/166226133-384026a3-5228-45e1-b660-4766b8219003.mp4
