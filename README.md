@@ -20,7 +20,7 @@ IF WANTED TO SET VIDEO FROM ONLINE WEB SOURCE :
 
         <uses-permission android:name="android.permission.INTERNET" />  
 
-
+• Use the below code to access the Video from our website
 
         Uri uri = Uri.parse("http://abhiandroid.jobxfryqt.netdna-cdn.com/ui/wp-content/uploads/2016/04/videoviewtestingvideo.mp4");
         VideoView simpleVideoView = (VideoView) findViewById(R.id.simpleVideoView); //initiate a video view
