@@ -3,10 +3,24 @@
 In Android, VideoView is used to display a video file
 
 
+# Some Important Methods Used in VideoView:
+
+1. setVideoUri(Uri uri): This method is used to set the absolute path of the video file which is going to be played. This method takes a Uri object as an argument.
+
+Below we set the uri of video which is saved in Android Studio:
+
+
+        videoView = findViewById(R.id.videoView); // initiate a video view
+        videoView.setVideoURI(Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.Video_name));
+
+
 https://user-images.githubusercontent.com/101108540/166226133-384026a3-5228-45e1-b660-4766b8219003.mp4
 
+2. It wanted to Set Video From Online Web Source:
 
+• First add internet permision in Manifest.xml file.
 
+        <uses-permission android:name="android.permission.INTERNET" />  
 
 if you getting error like can't play video! try this.,
 
