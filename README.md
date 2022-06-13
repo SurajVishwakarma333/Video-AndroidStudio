@@ -20,7 +20,6 @@ IF WANTED TO SET VIDEO FROM ONLINE WEB SOURCE :
 
         <uses-permission android:name="android.permission.INTERNET" />  
 
-if you getting error like can't play video! try this.,
 
 
         Uri uri = Uri.parse("http://abhiandroid.jobxfryqt.netdna-cdn.com/ui/wp-content/uploads/2016/04/videoviewtestingvideo.mp4");
@@ -35,6 +34,7 @@ https://user-images.githubusercontent.com/101108540/166226133-384026a3-5228-45e1
 
 
 
+if you getting error like can't play video! try this., 
 
 ![demo](https://user-images.githubusercontent.com/101108540/166226251-566f3a26-82a3-415e-9d83-28f7041bf3f3.png)
 
