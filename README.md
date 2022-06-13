@@ -20,12 +20,50 @@ IF WANTED TO SET VIDEO FROM ONLINE WEB SOURCE :
 
         <uses-permission android:name="android.permission.INTERNET" />  
 
-• Use the below code to access the Video from our website
+• Use the below code to access the Video from website
 
         Uri uri = Uri.parse("http://abhiandroid.jobxfryqt.netdna-cdn.com/ui/wp-content/uploads/2016/04/videoviewtestingvideo.mp4");
         VideoView simpleVideoView = (VideoView) findViewById(R.id.simpleVideoView); //initiate a video view
         simpleVideoView.setVideoURI(uri);
         simpleVideoView.start();
+
+
+2. setMediaController(MediaController controller): This method of VideoView is used to set the controller for the controls of video playback.
+
+![setMediaController](https://user-images.githubusercontent.com/101108540/173333270-c10a45a9-1d1f-49b7-bcf8-00cc5d592583.jpg)
+
+
+Below we show how to set the media controller object for a video view
+
+        // create an object of media controller
+        MediaController mediaController = new MediaController(this);
+        
+        // initiate a video view
+        VideoView simpleVideoView = (VideoView) findViewById(R.id.simpleVideoView);
+        
+        // set media controller object for a video view
+        simpleVideoView.setMediaController(mediaController);
+        
+        
+
+3. start(): This method of VideoView is used to start the playback of video file.
+
+Below we show how to start a video in video view
+
+        VideoView simpleVideoView = (VideoView) findViewById(R.id.simpleVideoView); // initiate a video view
+        simpleVideoView.start(); // start a video
+
+
+4. pause(): This method of video view is used to pause the current playback.
+ 
+Below we shows how to pause a video in video view.
+
+VideoView simpleVideoView = (VideoView) findViewById(R.id.simpleVideoView); // initiate a video view
+simpleVideoView.pause(); // pause a video
+
+
+
+
 
 
 
