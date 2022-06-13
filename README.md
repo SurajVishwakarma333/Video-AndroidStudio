@@ -14,9 +14,7 @@ Below we set the uri of video which is saved in Android Studio:
         videoView.setVideoURI(Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.Video_name));
 
 
-
-
-If wanted to Set Video From Online Web Source:
+IF WANTED TO SET VIDEO FROM ONLINE WEB SOURCE :
 
 • First add internet permision in Manifest.xml file.
 
